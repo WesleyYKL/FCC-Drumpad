@@ -1,0 +1,35 @@
+main{
+    height: 100vh;
+    width: auto;
+    background-color : #02343F;
+    display: flex;
+    justify-content: center;
+}
+
+#display{
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    grid-template-rows: repeat(3, 0.1fr);
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;  
+    width: 50%;
+    border: 2px solid white;
+    align-items: center;
+}
+
+body{
+    margin: 0px;
+}
+
+.drum-pad{
+    font-size: 20px;
+    background-color:#F0EDCC;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border: 2px solid red;
+}
+
+
